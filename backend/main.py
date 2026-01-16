@@ -16,7 +16,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://localhost:5174",
+        "https://verifyme-ai.vercel.app",
         "https://*.onrender.com",  # Allow all Render domains
         "*"  # Allow all origins for development - restrict in production
     ],
